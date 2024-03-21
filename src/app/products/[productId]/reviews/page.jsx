@@ -1,11 +1,10 @@
 
 
 export default function ProductReview({params}) {
-
+  
   return (
     <div>
-      <h1>Product {params.productId}</h1>
-      <p>review N{params.reviewId}</p>
+      <h1>ProductDetails {params.productId}</h1>
     </div>
   )
 }

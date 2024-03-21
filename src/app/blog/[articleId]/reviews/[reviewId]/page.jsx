@@ -1,10 +1,8 @@
-import { notFound } from "next/navigation"
+
 
 export default function ArticleReview({params}) {
 
-  if(parseInt(params.reviewId > 10)) {
-    notFound();
-  }
+  
 
   return (
     <div>

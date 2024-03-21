@@ -1,4 +1,11 @@
-import React from 'react'
+
+
+export const generateMetadata = ({params}) => {
+  return {
+    title: `Product ${params.productId}`,
+    description: `Product description ${params.productId}`
+  }
+}
 
 export default function ProductDetails({params}) {
   return (
